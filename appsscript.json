@@ -1,0 +1,34 @@
+{
+  "timeZone": "Asia/Bangkok",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Sheets",
+        "version": "v4",
+        "serviceId": "sheets"
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_ACCESSING",
+    "access": "MYSELF"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "sendEmailByRole",
+        "functionName": "sendEmailByRole"
+      },
+      {
+        "menuName": "onEdit",
+        "functionName": "onEdit"
+      },
+      {
+        "menuName": "getmessage",
+        "functionName": "getmessage"
+      }
+    ]
+  }
+}
