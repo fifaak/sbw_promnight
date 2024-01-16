@@ -154,7 +154,7 @@
   /* Group 5 */
   
   /* Rectangle 3 */
-  #rectangle3 {
+  #search-form {
     font-family: 'AmstelvarAlpha';
     font-style: normal;
     padding-left: 10px;
@@ -168,7 +168,7 @@
     box-shadow: 0px 0px 57.7px rgba(0, 0, 0, 0.25);
     /* backdrop-filter: blur(12.15px); */
   }
-  #rectangle3 a{
+  #search-form a{
     text-decoration: none;
     font-family: 'AmstelvarAlpha';
     font-style: normal;
@@ -183,7 +183,7 @@
     text-align: center;
     color: #1D1701;
   }
-  #rectangle3 input{
+  #search-form input{
     position: relative;
     transition: all 1.s;
     font-family: 'AmstelvarAlpha';
@@ -206,7 +206,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; /* Firefox */
 }
-#rectangle3 input:hover{
+#search-form input:hover{
   font-family: 'AmstelvarAlpha';
   font-style: normal;
   font-weight: 100;
@@ -219,7 +219,7 @@ input[type="number"] {
 }
 
 
-#rectangle3 input:focus{
+#search-form input:focus{
   font-family: 'AmstelvarAlpha';
   font-style: normal;
   font-weight: 100;
@@ -354,7 +354,7 @@ input[type="number"] {
       /* border: 2px solid blue; */
 
     }
-    #rectangle3{
+    #search-form{
       width: 100%;
       padding: 10px 0 0 0;
     }
@@ -368,7 +368,7 @@ input[type="number"] {
       margin-top: -10vh;
       /* border: 2px solid rgb(125, 240, 76); */
     }
-    #rectangle3{
+    #search-form{
       width: 100%;
       padding: 10px 0 0 0;
     }
